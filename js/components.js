@@ -496,34 +496,34 @@ eventsTemplate.innerHTML = `
                 <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb2d-f9c2c767" class="locatie horizontal">
                     <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb2e-f9c2c767" class="holder"><img src="images/intro-dag-utrecht.webp" loading="lazy" alt="A castle" class="image-full-width"></div>
                     <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb30-f9c2c767" class="holder">
-                        <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb31-f9c2c767" class="above-locatie-title">Utrecht - 04 juni 2024</div>
+                        <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb31-f9c2c767" class="above-locatie-title">Utrecht - 2025 - datum nog niet bekend</div>
                         <h3>Introductie dag</h3>
                         <p class="event-location">Slotkapel Kasteel Haarzuilens <br>Kasteellaan 1, 3455 RR</p>
                     </div>
                     <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb39-f9c2c767" class="holder event-button-holder">
-                        <a href="/schrijf-je-hier-in?subject=Introductie dag Utrecht 4 juni 2024#formulier" class="button icon-only w-button"></a>
+                        <a href="/schrijf-je-hier-in?subject=Introductie dag Utrecht 2025 datum nog niet bekend#formulier" class="button icon-only w-button"></a>
                     </div>
                 </div>
                 <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb3b-f9c2c767" class="locatie horizontal">
-                    <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb3c-f9c2c767" class="holder"><img src="images/intro-dag-brussels.webp" loading="lazy" alt="An old building" class="image-full-width"></div>
+                    <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb3c-f9c2c767" class="holder"><img src="images/intro-dag-Brussel.webp" loading="lazy" alt="An old building" class="image-full-width"></div>
                     <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb3e-f9c2c767" class="holder">
-                        <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb3f-f9c2c767" class="above-locatie-title">Brussels - 01 April 2024</div>
+                        <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb3f-f9c2c767" class="above-locatie-title">Brussel - 2025 - datum nog niet bekend</div>
                         <h3>Introductie dag</h3>
                         <p class="event-location">Chapel of Resurrection,  <br>Van Maerlantstraat 22/24, 1040</p>
                     </div>
                     <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb47-f9c2c767" class="holder event-button-holder">
-                        <a href="/schrijf-je-hier-in?subject=Introductie dag Brussels 1 apr 2024#formulier" class="button icon-only w-button"></a>
+                        <a href="/schrijf-je-hier-in?subject=Introductie dag Brussel datum nog niet bekend#formulier" class="button icon-only w-button"></a>
                     </div>
                 </div>
                 <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb49-f9c2c767" class="locatie horizontal last">
                     <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb4a-f9c2c767" class="holder"><img src="images/intro-avond-amsterdam.webp" loading="lazy" alt="Outside with trees" class="image-full-width"></div>
                     <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb4c-f9c2c767" class="holder">
-                        <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb4d-f9c2c767" class="above-locatie-title">Amsterdam - 06 mei 2024</div>
+                        <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb4d-f9c2c767" class="above-locatie-title">Amsterdam - datum nog niet bekend</div>
                         <h3>Introductie avond</h3>
                         <p class="event-location">Van Eesteren Museum <br>Noordzijde 31, 1064 GV</p>
                     </div>
                     <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb55-f9c2c767" class="holder event-button-holder">
-                        <a href="/schrijf-je-hier-in?subject=Introductie dag Amsterdam 6 mei 2024#formulier" class="button icon-only w-button"></a>
+                        <a href="/schrijf-je-hier-in?subject=Introductie dag Amsterdam datum nog niet bekend#formulier" class="button icon-only w-button"></a>
                     </div>
                 </div>
             </div>
@@ -581,15 +581,15 @@ eventslocationonlyTemplate.innerHTML = `
             <div id="w-node-de7307e7-0168-82e5-c517-dde06ddd513c-50f40ed8" class="locatie horizontal-lines no-lines">
                 <div id="w-node-_59ed20c0-90c0-a69f-333c-59bce895e305-50f40ed8" class="holder"><img src="images/intro-dag-utrecht-hor.webp" loading="lazy" alt="A castle" class="image-full-width"></div>
                     <div id="w-node-_8125fab8-af41-ff12-cada-95b87295dbd2-50f40ed8" class="holder">
-                        <div id="w-node-_24c31b26-eb6d-468e-bd97-5b8e80b75432-50f40ed8" class="above-locatie-title">Utrecht - 04 juni 2024</div>
+                        <div id="w-node-_24c31b26-eb6d-468e-bd97-5b8e80b75432-50f40ed8" class="above-locatie-title">Utrecht - 2025 - datum nog niet bekend</div>
                         <h3>Introductie dag</h3>
                         <p class="event-location">Slotkapel Kasteel Haarzuilens <br>Kasteellaan 1, 3455 RR</p>
                     </div>
                 </div>
             <div id="w-node-e4ecdd96-6cfc-f4e1-3532-4404bc3d3809-50f40ed8" class="locatie horizontal-lines">
-                <div id="w-node-e4ecdd96-6cfc-f4e1-3532-4404bc3d380a-50f40ed8" class="holder"><img src="images/intro-dag-brussels-hor.webp" loading="lazy" alt="An old building" class="image-full-width"></div>
+                <div id="w-node-e4ecdd96-6cfc-f4e1-3532-4404bc3d380a-50f40ed8" class="holder"><img src="images/intro-dag-Brussel-hor.webp" loading="lazy" alt="An old building" class="image-full-width"></div>
                 <div id="w-node-e4ecdd96-6cfc-f4e1-3532-4404bc3d380c-50f40ed8" class="holder">
-                    <div id="w-node-e4ecdd96-6cfc-f4e1-3532-4404bc3d380d-50f40ed8" class="above-locatie-title">Brussels - 01 April 2024</div>
+                    <div id="w-node-e4ecdd96-6cfc-f4e1-3532-4404bc3d380d-50f40ed8" class="above-locatie-title">Brussel - 2025 - datum nog niet bekend</div>
                     <h3>Introductie dag</h3>
                     <p class="event-location">Chapel of Resurrection, <br>Van Maerlantstraat 22/24, 1040</p>
                 </div>
@@ -597,7 +597,7 @@ eventslocationonlyTemplate.innerHTML = `
             <div id="w-node-_9b4887fc-8261-e839-a956-b0f061a62473-50f40ed8" class="locatie horizontal-lines no-lines">
                 <div id="w-node-_9b4887fc-8261-e839-a956-b0f061a62474-50f40ed8" class="holder"><img src="images/intro-avond-amsterdam-hor.webp" loading="lazy" alt="Outside with trees" class="image-full-width"></div>
                 <div id="w-node-_9b4887fc-8261-e839-a956-b0f061a62476-50f40ed8" class="holder">
-                    <div id="w-node-_9b4887fc-8261-e839-a956-b0f061a62477-50f40ed8" class="above-locatie-title">Amsterdam - 06 mei 2024</div>
+                    <div id="w-node-_9b4887fc-8261-e839-a956-b0f061a62477-50f40ed8" class="above-locatie-title">Amsterdam - datum nog niet bekend</div>
                     <h3>Introductie avond</h3>
                     <p class="event-location">Van Eesteren Museum <br>Noordzijde 31, 1064 GV</p>
                 </div>
@@ -647,9 +647,9 @@ contactTemplate.innerHTML = `
                 <label class="label">Onderwerp</label>
                 <select type="" id="subject" name="subject" data-name="subject" class="input w-select">
                     <option value="Algemeen">Algemeen</option>
-                    <option value="Introductie dag Utrecht 4 juni 2024">Introductie dag Utrecht 4 juni 2024</option>
-                    <option value="Introductie dag Brussels 1 apr 2024">Introductie dag Brussels 1 apr 2024</option>
-                    <option value="Introductie dag Amsterdam 6 mei 2024">Introductie dag Amsterdam 6 mei 2024</option>
+                    <option value="Introductie dag Utrecht 2025 datum nog niet bekend">Introductie dag Utrecht 2025 datum nog niet bekend</option>
+                    <option value="Introductie dag Brussel datum nog niet bekend">Introductie dag Brussel datum nog niet bekend</option>
+                    <option value="Introductie dag Amsterdam datum nog niet bekend">Introductie dag Amsterdam datum nog niet bekend</option>
                 </select>
                 <label class="label">Bericht</label>
                 <textarea id="message" name="message" maxlength="5000" data-name="Message" placeholder="Type hier uw bericht" class="input text-field w-input"></textarea>
