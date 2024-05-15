@@ -505,7 +505,7 @@ eventsTemplate.innerHTML = `
                     </div>
                 </div>
                 <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb3b-f9c2c767" class="locatie horizontal">
-                    <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb3c-f9c2c767" class="holder"><img src="images/intro-dag-Brussel.webp" loading="lazy" alt="An old building" class="image-full-width"></div>
+                    <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb3c-f9c2c767" class="holder"><img src="images/intro-dag-Brussels.webp" loading="lazy" alt="An old building" class="image-full-width"></div>
                     <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb3e-f9c2c767" class="holder">
                         <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb3f-f9c2c767" class="above-locatie-title">Brussel - 2025 - datum nog niet bekend</div>
                         <h3>Introductie dag</h3>
@@ -587,7 +587,7 @@ eventslocationonlyTemplate.innerHTML = `
                     </div>
                 </div>
             <div id="w-node-e4ecdd96-6cfc-f4e1-3532-4404bc3d3809-50f40ed8" class="locatie horizontal-lines">
-                <div id="w-node-e4ecdd96-6cfc-f4e1-3532-4404bc3d380a-50f40ed8" class="holder"><img src="images/intro-dag-Brussel-hor.webp" loading="lazy" alt="An old building" class="image-full-width"></div>
+                <div id="w-node-e4ecdd96-6cfc-f4e1-3532-4404bc3d380a-50f40ed8" class="holder"><img src="images/intro-dag-Brussels-hor.webp" loading="lazy" alt="An old building" class="image-full-width"></div>
                 <div id="w-node-e4ecdd96-6cfc-f4e1-3532-4404bc3d380c-50f40ed8" class="holder">
                     <div id="w-node-e4ecdd96-6cfc-f4e1-3532-4404bc3d380d-50f40ed8" class="above-locatie-title">Brussel - 2025 - datum nog niet bekend</div>
                     <h3>Introductie dag</h3>
