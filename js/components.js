@@ -45,9 +45,9 @@ class Navbar extends HTMLElement {
     }
 
     connectedCallback() {
-        const shadowRoot = this.attachShadow({ mode: 'open' });
-        shadowRoot.appendChild(navbarTemplate.content);
+        this.appendChild(navbarTemplate.content.cloneNode(true));
     }
+
 }
 customElements.define('comp-navbar', Navbar);
 
@@ -67,7 +67,7 @@ photolefttextrightCTATemplate.innerHTML = `
 <section class="section-wat-is-de-diamond-heart">
     <div class="spacing">
         <div class="w-layout-grid grid-2cols">
-            <div id="w-node-_5d0bff0c-059e-aa85-63a5-707cfdea2cd7-f9c2c767" class="holder"><img src="images/image-ontdek_1.webp" loading="lazy" sizes="(max-width: 479px) 94vw, (max-width: 767px) 92vw, 94vw" srcset="images/image-ontdek_1image-ontdek.webp 500w, images/image-ontdek_1.webp 524w" alt="Man holding his head high" class="image-full-width"></div>
+            <div id="w-node-_5d0bff0c-059e-aa85-63a5-707cfdea2cd7-f9c2c767" class="holder"><img src="images/image-ontdek_1.webp" loading="lazy" alt="Man holding his head high" class="image-full-width"></div>
             <div id="w-node-_4ea0f560-5c21-73c9-0e58-54690087255f-f9c2c767" class="holder">
                 <div id="w-node-c6ee4e30-a8b6-8011-f635-e0fdd0e810f2-f9c2c767" class="above-title">Wat is de Diamond Heart</div>
                 <h2>Ontdek je waarheid</h2>
@@ -372,7 +372,6 @@ customElements.define('comp-usp', Usp);
 /* ======================================================================================== */
 /* ================================================================================= SLIDER */
 const sliderTemplate = document.createElement('template');
-
 sliderTemplate.innerHTML = `
 
 <link href="css/normalize.css" rel="stylesheet" type="text/css">
@@ -385,76 +384,42 @@ sliderTemplate.innerHTML = `
             <div id="w-node-_51899271-5376-bab9-28c6-15a90fc8430b-f9c2c767" class="above-title white">Wat we doen</div>
             <h2 class="white">Zodat jij rust vind</h2>
         </div>
-        <div class="carousel" aria-label="Gallery">
-          <ol class="carousel__viewport">
-
-            <li id="carousel__slide1" tabindex="0" class="carousel__slide">
-              <div class="carousel__snapper"></div>
+        <div data-delay="4000" data-animation="slide" class="slider w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true">
+            <div class="mask w-slider-mask">
                 <div class="slide w-slide">
                     <div class="w-layout-grid grid-2cols">
-                        <div id="w-node-_51899271-5376-bab9-28c6-15a90fc84313-f9c2c767" class="holder"><img src="images/starting-the-classes-2023-11-27-04-53-47-utc-1_1.webp" loading="lazy" sizes="(max-width: 479px) 94vw, (max-width: 767px) 92vw, 94vw" srcset="images/starting-the-classes-2023-11-27-04-53-47-utc-1_1starting-the-classes-2023-11-27-04-53-47-utc-1.webp 500w, images/starting-the-classes-2023-11-27-04-53-47-utc-1_1starting-the-classes-2023-11-27-04-53-47-utc-1.webp 800w, images/starting-the-classes-2023-11-27-04-53-47-utc-1_1starting-the-classes-2023-11-27-04-53-47-utc-1.webp 1080w, images/starting-the-classes-2023-11-27-04-53-47-utc-1_1.webp 1920w" alt="People in a circle" class="image-full-width"></div>
-                        <div id="w-node-_51899271-5376-bab9-28c6-15a90fc84315-f9c2c767" class="holder">
-                            <h2 class="orange">Advaita Vedanta</h2>
-                            <p class="white">Tijdens een gesprek, vergadering en voor langere tijd tijdenswoon- of retraite Diamond Heart wijst voortdurendnaar je ware aard, die niet je lichaam of geest is, maar jouwtijdloze ware natuur, geheel in de Advaita traditie.</p>
+                        <div id="w-node-_51899271-5376-bab9-28c6-15a90fc84313-f9c2c767" class="holder"><img src="images/starting-the-classes-2023-11-27-04-53-47-utc-1_1.webp" loading="lazy" alt="People in a circle" class="image-full-width"></div>
+                            <div id="w-node-_51899271-5376-bab9-28c6-15a90fc84315-f9c2c767" class="holder">
+                                <h2 class="orange">Advaita Vedanta</h2>
+                                <p class="white">Tijdens een gesprek, vergadering en voor langere tijd tijdens een retraite Diamond Heart wijst voortdurend naar je ware aard, die niet je lichaam of geest is, maar jouw tijdloze ware natuur, geheel in de Advaita traditie.</p>
+                                <a href="wat-we-doen.html" class="button textual w-button">Lees meer<span class="button-arrow"> </span></a>
+                            </div>
+                        </div>
+                    </div>
+                <div class="slide w-slide">
+                    <div class="w-layout-grid grid-2cols">
+                        <div id="w-node-_51899271-5376-bab9-28c6-15a90fc8431e-f9c2c767" class="holder"><img src="images/relaxing-on-workshops-2023-11-27-05-12-22-utc-1_1.webp" loading="lazy" alt="People sleeping in a circle" class="image-full-width"></div>
+                        <div id="w-node-_51899271-5376-bab9-28c6-15a90fc84320-f9c2c767" class="holder">
+                            <h2 class="orange">Advaita</h2>
+                            <p class="white">In weekendbijeenkomsten, residentieel of retraites worden eigentijds teksten en klassieke Advaita-teksten gebruikt als vehikel en hulp die altijd wijst naar wat je werkelijk bent, wat niet je lichaam of geest is, maar je tijdloze ware aard.</p>
                             <a href="wat-we-doen.html" class="button textual w-button">Lees meer<span class="button-arrow"> </span></a>
                         </div>
                     </div>
                 </div>
-                <a href="#carousel__slide3"><div class="left-arrow w-slider-arrow-left"><img src="images/arrow-white-right_1.svg" loading="lazy" alt=""></div></a>
-                <a href="#carousel__slide2"><div class="right-arrow w-slider-arrow-right"><img src="images/arrow-white-right_1.svg" loading="lazy" alt=""></div></a>
-              
-            </li>
-
-            <li id="carousel__slide2" tabindex="0" class="carousel__slide">
-              <div class="carousel__snapper"></div>
-              <div class="slide w-slide">
-                <div class="w-layout-grid grid-2cols">
-                    <div id="w-node-_51899271-5376-bab9-28c6-15a90fc8431e-f9c2c767" class="holder"><img src="images/relaxing-on-workshops-2023-11-27-05-12-22-utc-1_1.webp" loading="lazy" sizes="(max-width: 479px) 94vw, (max-width: 767px) 92vw, 94vw" srcset="images/relaxing-on-workshops-2023-11-27-05-12-22-utc-1_1relaxing-on-workshops-2023-11-27-05-12-22-utc-1.webp 500w, images/relaxing-on-workshops-2023-11-27-05-12-22-utc-1_1relaxing-on-workshops-2023-11-27-05-12-22-utc-1.webp 800w, images/relaxing-on-workshops-2023-11-27-05-12-22-utc-1_1relaxing-on-workshops-2023-11-27-05-12-22-utc-1.webp 1080w, images/relaxing-on-workshops-2023-11-27-05-12-22-utc-1_1.webp 1920w" alt="People sleeping in a circle" class="image-full-width"></div>
-                    <div id="w-node-_51899271-5376-bab9-28c6-15a90fc84320-f9c2c767" class="holder">
-                        <h2 class="orange">Advaita</h2>
-                        <p class="white">In weekendbijeenkomsten, residentieel of retraites eigentijds teksten en klassieke Advaita-teksten worden gebruikt als vehikel en hulp die altijd wijst naar wat je werkelijk bent, wat dat niet is je lichaam of geest, maar je tijdloze ware aard.</p>
-                        <a href="wat-we-doen.html" class="button textual w-button">Lees meer<span class="button-arrow"> </span></a>
+                <div class="slide w-slide">
+                    <div class="w-layout-grid grid-2cols">
+                        <div id="w-node-_51899271-5376-bab9-28c6-15a90fc84329-f9c2c767" class="holder"><img src="images/meditating-during-session-2023-11-27-05-00-50-utc-1_1.webp" loading="lazy" alt="People meditating in a circle" class="image-full-width"></div>
+                        <div id="w-node-_51899271-5376-bab9-28c6-15a90fc8432b-f9c2c767" class="holder">
+                            <h2 class="orange">Nataraj</h2>
+                            <p class="white">Een residentie of toevluchtsoord is als een snelkookpan en geweldig vuur waar alle illusoire ideeën worden verbrand, weggesneden en... verdampt. De hindoegod Nataraj symboliseerde dit mechanisme terwijl Shiva danst en de vlammen onwetendheid wegbranden.</p>
+                            <a href="wat-we-doen.html" class="button textual w-button">Lees meer<span class="button-arrow"> </span></a>
+                        </div>
                     </div>
                 </div>
-              </div>
-              <a href="#carousel__slide1"><div class="left-arrow w-slider-arrow-left"><img src="images/arrow-white-right_1.svg" loading="lazy" alt=""></div></a>
-              <a href="#carousel__slide3"><div class="right-arrow w-slider-arrow-right"><img src="images/arrow-white-right_1.svg" loading="lazy" alt=""></div></a>
-            </li>
-
-            <li id="carousel__slide3" tabindex="0" class="carousel__slide">
-              <div class="carousel__snapper"></div>
-              <div class="slide w-slide">
-                <div class="w-layout-grid grid-2cols">
-                    <div id="w-node-_51899271-5376-bab9-28c6-15a90fc84329-f9c2c767" class="holder"><img src="images/meditating-during-session-2023-11-27-05-00-50-utc-1_1.webp" loading="lazy" sizes="(max-width: 479px) 94vw, (max-width: 767px) 92vw, 94vw" srcset="images/meditating-during-session-2023-11-27-05-00-50-utc-1_1meditating-during-session-2023-11-27-05-00-50-utc-1.webp 500w, images/meditating-during-session-2023-11-27-05-00-50-utc-1_1meditating-during-session-2023-11-27-05-00-50-utc-1.webp 800w, images/meditating-during-session-2023-11-27-05-00-50-utc-1_1meditating-during-session-2023-11-27-05-00-50-utc-1.webp 1080w, images/meditating-during-session-2023-11-27-05-00-50-utc-1_1.webp 1920w" alt="People meditating in a circle" class="image-full-width"></div>
-                    <div id="w-node-_51899271-5376-bab9-28c6-15a90fc8432b-f9c2c767" class="holder">
-                        <h2 class="orange">Nataraj</h2>
-                        <p class="white">Een residentie of toevluchtsoord is als een snelkookpan en geweldig vuur waar alle illusoire ideeën worden verbrand, weggesneden en... verdampt. De hindoegod Nataraj symboliseerde dit mechanisme terwijl Shiva danst terwijl de vlammen wegbranden onwetendheid.</p>
-                        <a href="wat-we-doen.html" class="button textual w-button">Lees meer<span class="button-arrow"> </span></a>
-                    </div>
-                  </div>
-              </div>
-              <a href="#carousel__slide2"><div class="left-arrow w-slider-arrow-left"><img src="images/arrow-white-right_1.svg" loading="lazy" alt=""></div></a>
-              <a href="#carousel__slide1"><div class="right-arrow w-slider-arrow-right"><img src="images/arrow-white-right_1.svg" loading="lazy" alt=""></div></a>
-            </li>
-          </ol>
-
-          <aside class="carousel__navigation">
-            <ol class="carousel__navigation-list">
-
-              <li class="carousel__navigation-item">
-                <a href="#carousel__slide1" class="carousel__navigation-button">Go to slide 1</a>
-              </li>
-
-              <li class="carousel__navigation-item">
-                <a href="#carousel__slide2" class="carousel__navigation-button">Go to slide 2</a>
-              </li>
-
-              <li class="carousel__navigation-item">
-                <a href="#carousel__slide3" class="carousel__navigation-button">Go to slide 3</a>
-              </li>
-
-            </ol>
-          </aside>
+            </div>
+            <div class="left-arrow w-slider-arrow-left"><img src="images/arrow-white-right_1.svg" loading="lazy" alt=""></div>
+            <div class="right-arrow w-slider-arrow-right"><img src="images/arrow-white-right_1.svg" loading="lazy" alt=""></div>
+            <div class="slide-nav w-slider-nav w-round"></div>
         </div>
     </div>
 </section>
@@ -466,9 +431,11 @@ class Slider extends HTMLElement {
     }
 
     connectedCallback() {
-        const root = this.attachShadow({ mode: 'open' });
-        root.appendChild(sliderTemplate.content);
+        this.appendChild(sliderTemplate.content.cloneNode(true));
     }
+
+
+
 }
 customElements.define('comp-slider', Slider);
 
@@ -494,45 +461,45 @@ eventsTemplate.innerHTML = `
         <div class="w-layout-grid grid-events">
             <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb2c-f9c2c767" class="w-layout-grid grid-locaties">
                 <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb2d-f9c2c767" class="locatie horizontal">
-                    <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb2e-f9c2c767" class="holder"><img src="images/intro-dag-utrecht.webp" loading="lazy" alt="A castle" class="image-full-width"></div>
+                    <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb2e-f9c2c767" class="holder"><img src="images/kasteel-haarzuilens.jpg" loading="lazy" alt="A castle, copyright from Google" class="image-full-width"></div>
                     <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb30-f9c2c767" class="holder">
-                        <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb31-f9c2c767" class="above-locatie-title">Utrecht - 2025 - datum nog niet bekend</div>
+                        <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb31-f9c2c767" class="above-locatie-title">Utrecht - 2025</div>
                         <h3>Introductie dag</h3>
                         <p class="event-location">Slotkapel Kasteel Haarzuilens <br>Kasteellaan 1, 3455 RR</p>
                     </div>
                     <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb39-f9c2c767" class="holder event-button-holder">
-                        <a href="/schrijf-je-hier-in?subject=Introductie dag Utrecht 2025 datum nog niet bekend#formulier" class="button icon-only w-button"></a>
+                        <a href="/schrijf-je-hier-in?subject=Introductie dag Utrecht 2025#formulier" class="button icon-only w-button"></a>
                     </div>
                 </div>
                 <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb3b-f9c2c767" class="locatie horizontal">
-                    <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb3c-f9c2c767" class="holder"><img src="images/intro-dag-brussels.webp" loading="lazy" alt="An old building" class="image-full-width"></div>
+                    <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb3c-f9c2c767" class="holder"><img src="images/intro-dag-brussels.webp" loading="lazy" alt="An old building, copyright from Google" class="image-full-width"></div>
                     <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb3e-f9c2c767" class="holder">
-                        <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb3f-f9c2c767" class="above-locatie-title">Brussel - 2025 - datum nog niet bekend</div>
+                        <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb3f-f9c2c767" class="above-locatie-title">Brussels - datum nog niet bekend</div>
                         <h3>Introductie dag</h3>
                         <p class="event-location">Chapel of Resurrection,  <br>Van Maerlantstraat 22/24, 1040</p>
                     </div>
                     <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb47-f9c2c767" class="holder event-button-holder">
-                        <a href="/schrijf-je-hier-in?subject=Introductie dag Brussel datum nog niet bekend#formulier" class="button icon-only w-button"></a>
+                        <a href="/schrijf-je-hier-in?subject=Introductie dag Introductie dag Brussels - datum nog niet bekend#formulier" class="button icon-only w-button"></a>
                     </div>
                 </div>
                 <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb49-f9c2c767" class="locatie horizontal last">
-                    <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb4a-f9c2c767" class="holder"><img src="images/intro-avond-amsterdam.webp" loading="lazy" alt="Outside with trees" class="image-full-width"></div>
+                    <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb4a-f9c2c767" class="holder"><img src="images/intro-avond-amsterdam.webp" loading="lazy" alt="Outside with trees, copyright from Google" class="image-full-width"></div>
                     <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb4c-f9c2c767" class="holder">
                         <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb4d-f9c2c767" class="above-locatie-title">Amsterdam - datum nog niet bekend</div>
                         <h3>Introductie avond</h3>
                         <p class="event-location">Van Eesteren Museum <br>Noordzijde 31, 1064 GV</p>
                     </div>
                     <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb55-f9c2c767" class="holder event-button-holder">
-                        <a href="/schrijf-je-hier-in?subject=Introductie dag Amsterdam datum nog niet bekend#formulier" class="button icon-only w-button"></a>
+                        <a href="/schrijf-je-hier-in?subject=Introductie dag Amsterdam - datum nog niet bekend#formulier" class="button icon-only w-button"></a>
                     </div>
                 </div>
             </div>
             <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb57-f9c2c767" class="contact">
-                <h3 class="white">Of neem contact op</h3>
+                <h3 class="white same-size-h2">Of neem contact op</h3>
                 <p class="white">Heb je een vraag of wilt je je inschrijven voor een evenement, neem dan contact op en wij helpen je op de juiste weg.</p>
                 <a href="mailto:info@diamondheart.love" class="contact-link mail">info@diamondheart.love</a>
                 <div class="contact-link phone">
-                    <a href="tel:+31682208000" class="footer-text-link">+31 6 297 694 95</a><br><span class="footer-text-link no-hover">Vrijdag - 10:00 t/m 14:00</span>
+                    <a href="tel:+31629769495" class="footer-text-link">+31 6 297 694 95</a><br><span class="footer-text-link no-hover">Vrijdag - 10:00 t/m 14:00</span>
                 </div>
                 <div class="form w-embed">
                     <form method="GET" action="/schrijf-je-hier-in#formulier">
@@ -581,7 +548,7 @@ eventslocationonlyTemplate.innerHTML = `
             <div id="w-node-de7307e7-0168-82e5-c517-dde06ddd513c-50f40ed8" class="locatie horizontal-lines no-lines">
                 <div id="w-node-_59ed20c0-90c0-a69f-333c-59bce895e305-50f40ed8" class="holder"><img src="images/intro-dag-utrecht-hor.webp" loading="lazy" alt="A castle" class="image-full-width"></div>
                     <div id="w-node-_8125fab8-af41-ff12-cada-95b87295dbd2-50f40ed8" class="holder">
-                        <div id="w-node-_24c31b26-eb6d-468e-bd97-5b8e80b75432-50f40ed8" class="above-locatie-title">Utrecht - 2025 - datum nog niet bekend</div>
+                        <div id="w-node-_24c31b26-eb6d-468e-bd97-5b8e80b75432-50f40ed8" class="above-locatie-title">Utrecht - 2025</div>
                         <h3>Introductie dag</h3>
                         <p class="event-location">Slotkapel Kasteel Haarzuilens <br>Kasteellaan 1, 3455 RR</p>
                     </div>
@@ -589,7 +556,7 @@ eventslocationonlyTemplate.innerHTML = `
             <div id="w-node-e4ecdd96-6cfc-f4e1-3532-4404bc3d3809-50f40ed8" class="locatie horizontal-lines">
                 <div id="w-node-e4ecdd96-6cfc-f4e1-3532-4404bc3d380a-50f40ed8" class="holder"><img src="images/intro-dag-brussels-hor.webp" loading="lazy" alt="An old building" class="image-full-width"></div>
                 <div id="w-node-e4ecdd96-6cfc-f4e1-3532-4404bc3d380c-50f40ed8" class="holder">
-                    <div id="w-node-e4ecdd96-6cfc-f4e1-3532-4404bc3d380d-50f40ed8" class="above-locatie-title">Brussel - 2025 - datum nog niet bekend</div>
+                    <div id="w-node-e4ecdd96-6cfc-f4e1-3532-4404bc3d380d-50f40ed8" class="above-locatie-title">Brussels - datum nog niet bekend</div>
                     <h3>Introductie dag</h3>
                     <p class="event-location">Chapel of Resurrection, <br>Van Maerlantstraat 22/24, 1040</p>
                 </div>
@@ -647,9 +614,9 @@ contactTemplate.innerHTML = `
                 <label class="label">Onderwerp</label>
                 <select type="" id="subject" name="subject" data-name="subject" class="input w-select">
                     <option value="Algemeen">Algemeen</option>
-                    <option value="Introductie dag Utrecht 2025 datum nog niet bekend">Introductie dag Utrecht 2025 datum nog niet bekend</option>
-                    <option value="Introductie dag Brussel datum nog niet bekend">Introductie dag Brussel datum nog niet bekend</option>
-                    <option value="Introductie dag Amsterdam datum nog niet bekend">Introductie dag Amsterdam datum nog niet bekend</option>
+                    <option value="Introductie dag Utrecht 2025">Introductie dag Utrecht 2025</option>
+                    <option value="Introductie dag Introductie dag Brussels - datum nog niet bekend">Introductie dag Introductie dag Brussels - datum nog niet bekend</option>
+                    <option value="Introductie dag Amsterdam - datum nog niet bekend">Introductie dag Amsterdam - datum nog niet bekend</option>
                 </select>
                 <label class="label">Bericht</label>
                 <textarea id="message" name="message" maxlength="5000" data-name="Message" placeholder="Type hier uw bericht" class="input text-field w-input"></textarea>
@@ -695,7 +662,7 @@ contactwithiconsTemplate.innerHTML = `
             </div>
             <div id="w-node-_4ea0f560-5c21-73c9-0e58-54690087255f-0f7c6221" class="holder">
                 <div class="contact-link phone-purple black">
-                    <a href="tel:+31682208000" class="footer-text-link black">+31 6 297 694 95</a><br><span class="footer-text-link no-hover black">Vrijdag - 10:00 t/m 14:00</span>
+                    <a href="tel:+31629769495" class="footer-text-link black">+31 6 297 694 95</a><br><span class="footer-text-link no-hover black">Vrijdag - 10:00 t/m 14:00</span>
                 </div>
             </div>
             <div id="w-node-_9403c18e-71e5-5d6a-f2b1-852d31aa9e80-0f7c6221" class="holder">
@@ -753,7 +720,7 @@ footerTemplate.innerHTML = `
                         <a href="over-ons.html" class="footer-text-link">Over ons</a>
                     </li>
                     <li>
-                        <a href="schrijf-je-hier-in.html" class="footer-text-link">Contact opnemen</a>
+                        <a href="schrijf-je-hier-in.html" class="footer-text-link">Maak een afspraak</a>
                     </li>
                 </ul>
             </div>
@@ -764,7 +731,7 @@ footerTemplate.innerHTML = `
                 </ul>
                 <a href="mailto:info@diamondheart.love" class="contact-link mail">info@diamondheart.love</a>
                 <div class="contact-link phone">
-                    <a href="tel:+31682208000" class="footer-text-link">+31 6 297 694 95</a><br><span class="footer-text-link no-hover">Vrijdag - 10:00 t/m 14:00</span>
+                    <a href="tel:+31629769495" class="footer-text-link">+31 6 297 694 95</a><br><span class="footer-text-link no-hover">Vrijdag - 10:00 t/m 14:00</span>
                 </div>
             </div>
         </div>

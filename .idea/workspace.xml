@@ -4,8 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56639702-944f-426d-aa9c-3532a9f34791" name="Changes" comment="website v1.1 van Bas">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+    <list default="true" id="56639702-944f-426d-aa9c-3532a9f34791" name="Changes" comment="website v2.0">
+      <change afterPath="$PROJECT_DIR$/atoms.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/arrow-light-orange-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/arrow-white-left_1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon_keyboard_arrow_down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/kasteel-haarzuilens.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/spring-tree.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/waterfall.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/waterfall2.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algemene-voorwaarden.html" beforeDir="false" afterPath="$PROJECT_DIR$/algemene-voorwaarden.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/diamond-heart.webflow.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/diamond-heart.webflow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/spring-tree-leaf-out-of-bud-composition-of-nature-2023-11-27-05-03-03-utc-1_1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/star.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/star.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/waterfall-whirlpool-as-tranquil-background-2023-11-27-05-06-21-utc-1_1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/waterfall-whirlpool-as-tranquil-background-2023-11-27-05-06-21-utc-1_1waterfall-whirlpool-as-tranquil-background-2023-11-27-05-06-21-utc (1).webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jouw-onrust.html" beforeDir="false" afterPath="$PROJECT_DIR$/jouw-onrust.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/components.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/components.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/vendor/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/over-ons.html" beforeDir="false" afterPath="$PROJECT_DIR$/over-ons.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schrijf-je-hier-in.html" beforeDir="false" afterPath="$PROJECT_DIR$/schrijf-je-hier-in.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wat-is-de-diamond-heart.html" beforeDir="false" afterPath="$PROJECT_DIR$/wat-is-de-diamond-heart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wat-we-doen.html" beforeDir="false" afterPath="$PROJECT_DIR$/wat-we-doen.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +40,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/initial-website-logo-setup" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,20 +68,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.index.html.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "feature/website__v2.0",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/pubdiamondheart.github.io/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
@@ -111,6 +136,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial website logo setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial website logo setup" />
+    <MESSAGE value="website v2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="website v2.0" />
   </component>
 </project>
