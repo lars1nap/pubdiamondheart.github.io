@@ -142,7 +142,7 @@ photolefttextrightTemplate.innerHTML = `
 <section class="section-kan-het-mij-helpen">
     <div class="spacing">
         <div class="w-layout-grid grid-2cols">
-        <div id="w-node-_5d0bff0c-059e-aa85-63a5-707cfdea2cd7-df50e5b9" class="holder"><img src="images/dark-haired-man-in-a-checkered-shirt-having-a-head-2023-11-27-05-00-40-utc-1_1.webp" loading="lazy" sizes="(max-width: 479px) 94vw, (max-width: 767px) 92vw, 94vw" alt="Man holding hands to face like having a headache" class="image-full-width flipped"></div>
+        <div id="w-node-_5d0bff0c-059e-aa85-63a5-707cfdea2cd7-df50e5b9" class="holder"><img src="images/dark-haired-man-in-a-checkered-shirt-having-a-head-2023-11-27-05-00-40-utc-1_1.webp" loading="lazy" sizes="(max-width: 479px) 94vw, (max-width: 767px) 92vw, 94vw" srcset="images/dark-haired-man-in-a-checkered-shirt-having-a-head-2023-11-27-05-00-40-utc-1_1dark-haired-man-in-a-checkered-shirt-having-a-head-2023-11-27-05-00-40-utc-1.webp 500w, images/dark-haired-man-in-a-checkered-shirt-having-a-head-2023-11-27-05-00-40-utc-1_1dark-haired-man-in-a-checkered-shirt-having-a-head-2023-11-27-05-00-40-utc-1.webp 800w, images/dark-haired-man-in-a-checkered-shirt-having-a-head-2023-11-27-05-00-40-utc-1_1dark-haired-man-in-a-checkered-shirt-having-a-head-2023-11-27-05-00-40-utc-1.webp 1080w, images/dark-haired-man-in-a-checkered-shirt-having-a-head-2023-11-27-05-00-40-utc-1_1.webp 1920w" alt="Man holding hands to face like having a headache" class="image-full-width flipped"></div>
         <div id="w-node-_4ea0f560-5c21-73c9-0e58-54690087255f-df50e5b9" class="holder">
           <h2>Kan het mij helpen?</h2>
           <p>De filosofie van het Diamond Heart kan voor jou relevant zijn als je op zoek bent naar diepere betekenis, innerlijke groei en spirituele verlichting. Dit kan vooral het geval zijn wanneer je jezelf geconfronteerd ziet met uitdagingen, innerlijke conflicten of een verlangen naar meer vervulling in het leven. Door de principes van het Diamond Heart te omarmen, kun je een pad ontdekken dat leidt tot een dieper begrip van jezelf, innerlijke rust en een gevoel van verbondenheid met het universum.</p>
@@ -370,6 +370,67 @@ customElements.define('comp-usp', Usp);
 
 
 /* ======================================================================================== */
+/* ======================================================================== USP WITHOUT CTA */
+const uspwctaTemplate = document.createElement('template');
+uspwctaTemplate.innerHTML = `
+
+<link href="css/normalize.css" rel="stylesheet" type="text/css">
+<link href="css/webflow.css" rel="stylesheet" type="text/css">
+<link href="css/diamond-heart.webflow.css" rel="stylesheet" type="text/css">
+
+<section id="jouw-onrust" class="section-jouw-onrust">
+    <div class="spacing">
+        <div id="w-node-_96ad5776-6e7f-4211-1b08-9b0c0e5b135f-f9c2c767" class="holder center-text">
+            <div id="w-node-_96ad5776-6e7f-4211-1b08-9b0c0e5b1360-f9c2c767" class="above-title">Jouw onrust</div>
+            <h2>Vind rust in je dagelijkse strijd tegen</h2>
+        </div>
+        <div class="w-layout-grid grid-cards">
+            <div class="card"><img src="images/icon-purple-isolatiegevoel.svg" loading="lazy" alt="" class="icon-purple-card">
+                <h3>Isolatiegevoel</h3>
+                <p class="no-margins">Afstand tot anderen en een gebrek aan verbondenheid, vaak gepaard met gevoelens van eenzaamheid.</p>
+            </div>
+            <div id="w-node-c689aceb-27e7-b6c6-246d-e0d9dba471e5-f9c2c767" class="card"><img src="images/icon-purple-verlang-diepte.svg" loading="lazy" alt="" class="icon-purple-card">
+              <h3>Verlangen naar diepte</h3>
+              <p class="no-margins">Een innerlijk streven naar meer betekenis, inzicht en diepgang in het dagelijks leven.</p>
+            </div>
+            <div id="w-node-bf209ff6-fd0c-0ee4-37ae-2bfe74789655-f9c2c767" class="card"><img src="images/icon-purple-overweldiging.svg" loading="lazy" alt="" class="icon-purple-card">
+              <h3>Overweldiging</h3>
+              <p class="no-margins">Intense druk, waardoor je moeilijk in staat bent om effectief om te gaan met de eisen van het dagelijks leven.</p>
+            </div>
+            <div id="w-node-_82f3ee05-8bdd-6772-be9b-d46a443da021-f9c2c767" class="card"><img src="images/icon-purple-identiteitscrisis.svg" loading="lazy" alt="" class="icon-purple-card">
+              <h3>Identiteitscrisis</h3>
+              <p class="no-margins">Een innerlijke worsteling met je eigen identiteit en het zoeken naar een gevoel van zelfbegrip.</p>
+            </div>
+            <div id="w-node-e440c585-acab-d59d-cfb1-2bd0d55f196f-f9c2c767" class="card"><img src="images/icon-purple-verlang-vrede.svg" loading="lazy" alt="" class="icon-purple-card">
+              <h3>Verlangen naar vrede</h3>
+              <p class="no-margins">Het innerlijke streven naar rust, harmonie en een gevoel van kalmte en evenwicht in jezelf.</p>
+            </div>
+            <div id="w-node-_641c9fd3-6b47-f0c9-bb1b-ba4175f1156b-f9c2c767" class="card"><img src="images/icon-purple-dieper-zelfbegrip.svg" loading="lazy" alt="" class="icon-purple-card">
+              <h3>Dieper Zelfbegrip</h3>
+              <p class="no-margins">Beter begrip van je eigen gedachten en emoties om meer richting in het leven te verkrijgen.</p>
+            </div>
+        </div>
+    </div>
+</section>
+`
+
+class Uspwcta extends HTMLElement {
+    constructor() {
+        super();
+    }
+
+    connectedCallback() {
+        const shadowRoot = this.attachShadow({ mode: 'open' });
+        shadowRoot.appendChild(uspwctaTemplate.content);
+    }
+}
+customElements.define('comp-usp-without-cta', Uspwcta);
+
+
+
+
+
+/* ======================================================================================== */
 /* ================================================================================= SLIDER */
 const sliderTemplate = document.createElement('template');
 sliderTemplate.innerHTML = `
@@ -382,7 +443,7 @@ sliderTemplate.innerHTML = `
     <div class="spacing">
         <div id="w-node-_51899271-5376-bab9-28c6-15a90fc8430a-f9c2c767" class="holder">
             <div id="w-node-_51899271-5376-bab9-28c6-15a90fc8430b-f9c2c767" class="above-title white">Wat we doen</div>
-            <h2 class="white">Zodat jij rust vindt</h2>
+            <h2 class="white">Zodat jij rust vind</h2>
         </div>
         <div data-delay="4000" data-animation="slide" class="slider w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true">
             <div class="mask w-slider-mask">
@@ -738,7 +799,7 @@ footerTemplate.innerHTML = `
     </div>
     <div class="under-footer">
         <div class="spacing under-footer-spacing">
-            <a href="#" class="footer-text-link">© Diamond Heart</a>
+            <a class="footer-text-link">© Diamond Heart</a>
             <a href="algemene-voorwaarden.html" class="footer-text-link">Algemene voorwaarden</a>
         </div>
     </div>

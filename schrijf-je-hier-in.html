@@ -34,7 +34,7 @@
   <comp-events-locations-only></comp-events-locations-only>
 
   <section id="formulier" class="section-neem-contact-op">
-    <div class="spacing tight-spacing">
+    <div class="spacing">
       <div id="w-node-ad344201-3897-d044-271d-d8e0ebb41412-50f40ed8" class="holder">
         <h2 class="white contact-header">Neem contact op</h2>
       </div>
@@ -43,7 +43,7 @@
         <form id="contact-form" name="MyForm" method="POST" action="https://api.staticforms.xyz/submit">
           <input type="hidden" name="accessKey" value="c7283bea-1a2d-4c28-b9f1-4504b44cb77d">
           <label class="label">Email *</label>
-          <input class="input w-input" type="text" name="email" placeholder="voorbeeld@info.nl">
+          <input class="input w-input" type="text" name="email" placeholder="voorbeeld@info.nl" required>
           <label class="label">Naam</label>
           <input class="input w-input" maxlength="256" name="name" data-name="name" placeholder="Naam" type="text" id="name">
           <label class="label">Onderwerp</label>
@@ -56,7 +56,7 @@
           <label class="label">Bericht</label>
           <textarea id="message" name="message" maxlength="5000" data-name="Message" placeholder="Type hier uw bericht" class="input text-field w-input"></textarea>
           <p class="white">Door op verzenden te klikken gaat u akkoord met de <a class="white" href="algemene-voorwaarden.html">algemene voorwaarden</a> van Diamond Heart</p>
-          <input type="hidden" name="redirectTo" value="https://diamondheart.love/schrijf-je-hier-in.html">
+          <input type="hidden" name="redirectTo" value="https://diamondheart.love/ingeschreven.html#formulier">
           <input type="text" name="honeypot" style="display: none;">
           <input class="button w-button" type="submit" value="Bericht verzenden">
         </form>

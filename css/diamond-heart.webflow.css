@@ -567,7 +567,8 @@ li {
 }
 
 .spacing.tight-spacing {
-  max-width: 70%;
+  max-width: 1400px;
+  width: 70%;
 }
 
 .spacing.atf-banner-spacing {
