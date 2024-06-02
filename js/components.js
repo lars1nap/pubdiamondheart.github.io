@@ -452,7 +452,7 @@ sliderTemplate.innerHTML = `
                         <div id="w-node-_51899271-5376-bab9-28c6-15a90fc84313-f9c2c767" class="holder"><img src="images/starting-the-classes-2023-11-27-04-53-47-utc-1_1.webp" loading="lazy" alt="People in a circle" class="image-full-width"></div>
                             <div id="w-node-_51899271-5376-bab9-28c6-15a90fc84315-f9c2c767" class="holder">
                                 <h2 class="orange">Advaita Vedanta</h2>
-                                <p class="white">Tijdens een gesprek, vergadering en voor langere tijd tijdens een retraite Diamond Heart wijst voortdurend naar je ware aard, die niet je lichaam of geest is, maar jouw tijdloze ware natuur, geheel in de Advaita traditie.</p>
+                                <p class="white">Tijdens een gesprek, een middag of voor langere tijd tijdens een retraite wordt voortdurend verwezen naar je ware aard, wat niet je lichaam of geest is, maar jouw tijdloze ware natuur, dit geheel in de Advaita traditie.</p>
                                 <a href="wat-we-doen.html" class="button textual w-button">Lees meer<span class="button-arrow"> </span></a>
                             </div>
                         </div>
@@ -462,7 +462,7 @@ sliderTemplate.innerHTML = `
                         <div id="w-node-_51899271-5376-bab9-28c6-15a90fc8431e-f9c2c767" class="holder"><img src="images/relaxing-on-workshops-2023-11-27-05-12-22-utc-1_1.webp" loading="lazy" alt="People sleeping in a circle" class="image-full-width"></div>
                         <div id="w-node-_51899271-5376-bab9-28c6-15a90fc84320-f9c2c767" class="holder">
                             <h2 class="orange">Advaita</h2>
-                            <p class="white">In weekendbijeenkomsten, residentieel of retraites worden eigentijds teksten en klassieke Advaita-teksten gebruikt als vehikel en hulp die altijd wijst naar wat je werkelijk bent, wat niet je lichaam of geest is, maar je tijdloze ware aard.</p>
+                            <p class="white">Op bijeenkomsten of retraites worden eigentijdse en klassieke Advaita-teksten gebruikt als vehikel en hulp om altijd te verwijzen naar wat je werkelijk bent, wat niet je lichaam of geest is, maar je tijdloze ware aard.</p>
                             <a href="wat-we-doen.html" class="button textual w-button">Lees meer<span class="button-arrow"> </span></a>
                         </div>
                     </div>
@@ -472,7 +472,7 @@ sliderTemplate.innerHTML = `
                         <div id="w-node-_51899271-5376-bab9-28c6-15a90fc84329-f9c2c767" class="holder"><img src="images/meditating-during-session-2023-11-27-05-00-50-utc-1_1.webp" loading="lazy" alt="People meditating in a circle" class="image-full-width"></div>
                         <div id="w-node-_51899271-5376-bab9-28c6-15a90fc8432b-f9c2c767" class="holder">
                             <h2 class="orange">Nataraj</h2>
-                            <p class="white">Een residentie of toevluchtsoord is als een snelkookpan en geweldig vuur waar alle illusoire ideeën worden verbrand, weggesneden en... verdampt. De hindoegod Nataraj symboliseerde dit mechanisme terwijl Shiva danst en de vlammen onwetendheid wegbranden.</p>
+                            <p class="white">Een retraite is als een snelkookpan en geweldig vuur waar alle illusoire ideeën worden verbrand, weggesneden en... verdampt. De hindoegod Nataraj symboliseert dit.</p>
                             <a href="wat-we-doen.html" class="button textual w-button">Lees meer<span class="button-arrow"> </span></a>
                         </div>
                     </div>
@@ -522,27 +522,28 @@ eventsTemplate.innerHTML = `
         <div class="w-layout-grid grid-events">
             <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb2c-f9c2c767" class="w-layout-grid grid-locaties">
                 <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb2d-f9c2c767" class="locatie horizontal">
-                    <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb2e-f9c2c767" class="holder"><img src="images/kasteel-haarzuilens.jpg" loading="lazy" alt="A castle, copyright from Google" class="image-full-width"></div>
+                    <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb2e-f9c2c767" class="holder"><img src="images/witte_kerkje_1.jpg" loading="lazy" alt="Het Witte Kerkje, Groet" class="image-full-width"></div>
                     <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb30-f9c2c767" class="holder">
-                        <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb31-f9c2c767" class="above-locatie-title">Utrecht - 2025</div>
-                        <h3>Introductie dag</h3>
-                        <p class="event-location">Slotkapel Kasteel Haarzuilens <br>Kasteellaan 1, 3455 RR</p>
+                        <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb31-f9c2c767" class="above-locatie-title">Groet - Dinsdag 8 en 15 Oktober</div>
+                        <h3>Introductie avond</h3>
+                        <p class="event-location">Het Witte Kerkje<br>Kerkbrink 1, Groet</p>
                     </div>
                     <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb39-f9c2c767" class="holder event-button-holder">
-                        <a href="/schrijf-je-hier-in?subject=Introductie dag Utrecht 2025#formulier" class="button icon-only w-button"></a>
+                        <a href="/schrijf-je-hier-in?subject=Introductie avond 8 Oktober#formulier" class="button icon-only w-button"></a>
                     </div>
                 </div>
                 <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb3b-f9c2c767" class="locatie horizontal">
-                    <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb3c-f9c2c767" class="holder"><img src="images/intro-dag-brussels.webp" loading="lazy" alt="An old building, copyright from Google" class="image-full-width"></div>
+                    <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb3c-f9c2c767" class="holder"><img src="images/de_groene_duinen_1.jpg" loading="lazy" alt="Villa De Groene Duinen, Valkeveen Naarden" class="image-full-width"></div>
                     <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb3e-f9c2c767" class="holder">
-                        <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb3f-f9c2c767" class="above-locatie-title">Brussels - datum nog niet bekend</div>
-                        <h3>Introductie dag</h3>
-                        <p class="event-location">Chapel of Resurrection,  <br>Van Maerlantstraat 22/24, 1040</p>
+                        <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb3f-f9c2c767" class="above-locatie-title">Naarden - Oktober 2024</div>
+                        <h3>Introductie middag</h3>
+                        <p class="event-location">Villa De Groene Duinen<br>Valkeveen Naarden</p>
                     </div>
                     <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb47-f9c2c767" class="holder event-button-holder">
-                        <a href="/schrijf-je-hier-in?subject=Introductie dag Introductie dag Brussels - datum nog niet bekend#formulier" class="button icon-only w-button"></a>
+                        <a href="/schrijf-je-hier-in?subject=Introductie middag Naarden#formulier" class="button icon-only w-button"></a>
                     </div>
                 </div>
+                <!--
                 <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb49-f9c2c767" class="locatie horizontal last">
                     <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb4a-f9c2c767" class="holder"><img src="images/intro-avond-amsterdam.webp" loading="lazy" alt="Outside with trees, copyright from Google" class="image-full-width"></div>
                     <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb4c-f9c2c767" class="holder">
@@ -554,6 +555,19 @@ eventsTemplate.innerHTML = `
                         <a href="/schrijf-je-hier-in?subject=Introductie dag Amsterdam - datum nog niet bekend#formulier" class="button icon-only w-button"></a>
                     </div>
                 </div>
+                -->
+                <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb49-f9c2c767" class="locatie horizontal last">
+                    <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb4a-f9c2c767" class="holder"><img src="images/zeeland_1.jpg" loading="lazy" alt="Outside with trees, copyright from Google" class="image-full-width"></div>
+                    <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb4c-f9c2c767" class="holder">
+                        <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb4d-f9c2c767" class="above-locatie-title">Zeeland - zomer 2025</div>
+                        <h3>Zomer week</h3>
+                        <p class="event-location">n.t.b.<br>Zeeland</p>
+                    </div>
+                    <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb55-f9c2c767" class="holder event-button-holder">
+                        <a href="/schrijf-je-hier-in?subject=Zomer week - Zeeland#formulier" class="button icon-only w-button"></a>
+                    </div>
+                </div>
+
             </div>
             <div id="w-node-_448a6ad7-e9cf-3156-46d2-59c25f84cb57-f9c2c767" class="contact">
                 <h3 class="white same-size-h2">Of neem contact op</h3>
@@ -607,27 +621,27 @@ eventslocationonlyTemplate.innerHTML = `
         </div>
         <div class="w-layout-grid grid-events horizontal">
             <div id="w-node-de7307e7-0168-82e5-c517-dde06ddd513c-50f40ed8" class="locatie horizontal-lines no-lines">
-                <div id="w-node-_59ed20c0-90c0-a69f-333c-59bce895e305-50f40ed8" class="holder"><img src="images/intro-dag-utrecht-hor.webp" loading="lazy" alt="A castle" class="image-full-width"></div>
+                <div id="w-node-_59ed20c0-90c0-a69f-333c-59bce895e305-50f40ed8" class="holder"><img src="images/witte_kerkje_1.jpg" loading="lazy" alt="Het Witte Kerkje" class="image-full-width"></div>
                     <div id="w-node-_8125fab8-af41-ff12-cada-95b87295dbd2-50f40ed8" class="holder">
-                        <div id="w-node-_24c31b26-eb6d-468e-bd97-5b8e80b75432-50f40ed8" class="above-locatie-title">Utrecht - 2025</div>
-                        <h3>Introductie dag</h3>
-                        <p class="event-location">Slotkapel Kasteel Haarzuilens <br>Kasteellaan 1, 3455 RR</p>
+                        <div id="w-node-_24c31b26-eb6d-468e-bd97-5b8e80b75432-50f40ed8" class="above-locatie-title">Groet - Dinsdag 8 en 15 Oktober</div>
+                        <h3>Introductie avond</h3>
+                        <p class="event-location">Het Witte Kerkje<br>Kerkbrink 1, Groet</p>
                     </div>
                 </div>
             <div id="w-node-e4ecdd96-6cfc-f4e1-3532-4404bc3d3809-50f40ed8" class="locatie horizontal-lines">
-                <div id="w-node-e4ecdd96-6cfc-f4e1-3532-4404bc3d380a-50f40ed8" class="holder"><img src="images/intro-dag-brussels-hor.webp" loading="lazy" alt="An old building" class="image-full-width"></div>
+                <div id="w-node-e4ecdd96-6cfc-f4e1-3532-4404bc3d380a-50f40ed8" class="holder"><img src="images/de_groene_duinen_1.jpg" loading="lazy" alt="Villa De Groene Duinen" class="image-full-width"></div>
                 <div id="w-node-e4ecdd96-6cfc-f4e1-3532-4404bc3d380c-50f40ed8" class="holder">
-                    <div id="w-node-e4ecdd96-6cfc-f4e1-3532-4404bc3d380d-50f40ed8" class="above-locatie-title">Brussels - datum nog niet bekend</div>
-                    <h3>Introductie dag</h3>
-                    <p class="event-location">Chapel of Resurrection, <br>Van Maerlantstraat 22/24, 1040</p>
+                    <div id="w-node-e4ecdd96-6cfc-f4e1-3532-4404bc3d380d-50f40ed8" class="above-locatie-title">Naarden - Oktober 2024</div>
+                    <h3>Introductie middag</h3>
+                    <p class="event-location">Villa De Groene Duinen<br>Valkeveen Naarden</p>
                 </div>
             </div>
             <div id="w-node-_9b4887fc-8261-e839-a956-b0f061a62473-50f40ed8" class="locatie horizontal-lines no-lines">
-                <div id="w-node-_9b4887fc-8261-e839-a956-b0f061a62474-50f40ed8" class="holder"><img src="images/intro-avond-amsterdam-hor.webp" loading="lazy" alt="Outside with trees" class="image-full-width"></div>
+                <div id="w-node-_9b4887fc-8261-e839-a956-b0f061a62474-50f40ed8" class="holder"><img src="images/zeeland_1.jpg" loading="lazy" alt="Strand" class="image-full-width"></div>
                 <div id="w-node-_9b4887fc-8261-e839-a956-b0f061a62476-50f40ed8" class="holder">
-                    <div id="w-node-_9b4887fc-8261-e839-a956-b0f061a62477-50f40ed8" class="above-locatie-title">Amsterdam - datum nog niet bekend</div>
-                    <h3>Introductie avond</h3>
-                    <p class="event-location">Van Eesteren Museum <br>Noordzijde 31, 1064 GV</p>
+                    <div id="w-node-_9b4887fc-8261-e839-a956-b0f061a62477-50f40ed8" class="above-locatie-title">Zeeland - zomer 2025</div>
+                    <h3>Zomer week</h3>
+                    <p class="event-location">n.t.b. <br>Zeeland</p>
                 </div>
             </div>
         </div>
